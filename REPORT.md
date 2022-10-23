@@ -49,3 +49,23 @@ Commands:
    ```
    <b> For seeing history of line </b>
 
+<h3> Fifth task </h3>
+<image src="./docs/5.png" />
+Commands:
+
+1. ```
+   git bisect start
+   ```
+   <b> To start bisecting </b>
+2. ```
+   git bisect good 8673a612
+   ```
+   <b> Point commit, where code works </b>
+3. ```
+   git bisect bad 086864e4
+   ```
+   <b> Point commit, where code doesn't work </b>
+4. ```
+   git bisect good/bad
+   ```
+   <b> If code works/doesn't work at this commit </b>
