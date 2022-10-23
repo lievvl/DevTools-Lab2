@@ -93,6 +93,15 @@ Commands:
    ```
    <b> To change git variables in commits of feature branch </b>
 
+<h3> Eighth task </h3>
+<image src="./docs/8.png" />
+Commands:
+
+1. ```
+   git config --global rerere.enabled true
+   ```
+   <b> To activate remembering of merges </b>
+
 <h3> Ninth task </h3>
 <image src="./docs/9.1.png" />
 <image src="./docs/9.2.png" />
