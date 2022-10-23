@@ -93,7 +93,7 @@ Commands:
    ```
    <b> To change git variables in commits of feature branch </b>
 
-<h3> Nineth task </h3>
+<h3> Ninth task </h3>
 <image src="./docs/9.1.png" />
 <image src="./docs/9.2.png" />
 Commands:
@@ -111,3 +111,13 @@ Commands:
    git gc --prube=now
    ```
    <b> To delete dangling trees </b>
+
+<h3> Tenth task </h3>
+<image src="./docs/10.1.png" />
+<image src="./docs/10.2.png" />
+Commands:
+
+1. ```
+   git gc
+   ```
+   <b> Activate git garbage collector. </b>
