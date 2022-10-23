@@ -22,3 +22,20 @@ Commands:
    git branch -d ci
    ```
    <b> Delete branch </b>
+
+<h3> Third task </h3>
+<image src="./docs/3.png" />
+Commands:
+
+1. ```
+   git reflog
+   ```
+   <b> For history </b>
+2. ```
+   git reset --hard <hash>
+   ```
+   <b> To move HEAD on lost commit </b>
+3. ```
+   git branch old-master
+   ```
+   <b> Make new branch </b>
