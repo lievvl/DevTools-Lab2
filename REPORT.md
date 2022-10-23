@@ -78,3 +78,18 @@ Commands:
    git filter-branch --tree-filter 'rm -f .env' -- --all
    ```
    <b> To delete from each commit .env file </b>
+
+<h3> Seventh task </h3>
+<image src="./docs/7.png" />
+Commands:
+
+1. ```
+   git filter-branch --env-filter '
+    GIT_AUTHOR_NAME=LiEugene
+    GIT_AUTHOR_EMAIL=azazinba@yandex.ru
+    GIT_COMMITTER_NAME=LiEugene
+    GIT_COMMITTER_EMAIL=azazinba@yandex.ru
+    ' 4cac5504..feature
+   ```
+   <b> To change git variables in commits of feature branch </b>
+
