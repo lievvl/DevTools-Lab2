@@ -39,3 +39,13 @@ Commands:
    git branch old-master
    ```
    <b> Make new branch </b>
+
+<h3> Fourth task </h3>
+<image src="./docs/4.png" />
+Commands:
+
+1. ```
+   git log -L 32,32:prisma/seed.ts
+   ```
+   <b> For seeing history of line </b>
+
