@@ -93,3 +93,21 @@ Commands:
    ```
    <b> To change git variables in commits of feature branch </b>
 
+<h3> Nineth task </h3>
+<image src="./docs/9.1.png" />
+<image src="./docs/9.2.png" />
+Commands:
+
+1. ```
+   git fsck
+   ```
+   <b> To see if there's unreachable objects </b>
+2. ```
+   git gc
+   ```
+   <b> Activate git garbage collector. Deletes all dangling blobs </b>
+3. ```
+   git reflog expire --expire-inreachable=now --all
+   git gc --prube=now
+   ```
+   <b> To delete dangling trees </b>
