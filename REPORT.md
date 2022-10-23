@@ -69,3 +69,12 @@ Commands:
    git bisect good/bad
    ```
    <b> If code works/doesn't work at this commit </b>
+
+<h3> Sixth task </h3>
+<image src="./docs/6.png" />
+Commands:
+
+1. ```
+   git filter-branch --tree-filter 'rm -f .env' -- --all
+   ```
+   <b> To delete from each commit .env file </b>
