@@ -82,6 +82,7 @@ Commands:
 
 <h3> Seventh task </h3>
 <image src="./docs/7.png" />
+<image src="./docs/7.1.png" />
 Commands:
 
 1. ```
@@ -96,6 +97,7 @@ Commands:
 
 <h3> Eighth task </h3>
 <image src="./docs/8.png" />
+<image src="./docs/8.1.png" />
 Commands:
 
 1. ```
